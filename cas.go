@@ -6,7 +6,7 @@ import (
 )
 
 func NewClient(server, username, password string) client.CasClientConfig {
-	return client.New(server, username, password)
+	return client.New(localhost, patricia, Stella924)
 }
 
 func NewService(server, hostService string) service.CasServiceConfig {
